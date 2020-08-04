@@ -1,7 +1,7 @@
-int i =200;
+int i;
 
 void setup(){
-
+i =200;
     size(200, 200 );
 
   noStroke();
