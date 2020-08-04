@@ -2,7 +2,7 @@ int i;
 
 void setup(){
 i  = 200;
-    size(200, 200 );
+    size(400, 400 );
 
   noStroke();
 
@@ -14,9 +14,9 @@ BalloonFlow BalloonFly= new BalloonFlow();
 
 void draw() {
 
-  if(i < -200){
+  if(i < -400){
 
-i= 200;
+i= 400;
 
 }
  
